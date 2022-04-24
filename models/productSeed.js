@@ -3,8 +3,6 @@ const Products = require('./products')
 const mongoose = require('mongoose')
 mongoose.connect (process.env.DATABASE_URL)
 
-
-
 const productSeedData = [
     {
       name: 'Beans',
